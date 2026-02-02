@@ -41,5 +41,9 @@ pip install -r requirements.txt
 ### Execute
 
 ```cmd
+.\venv\Scripts\activate
+```
+
+```cmd
 python .\src\main.py
 ```
