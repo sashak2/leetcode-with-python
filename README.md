@@ -47,3 +47,7 @@ pip install -r requirements.txt
 ```cmd
 python .\src\main.py
 ```
+
+```cmd
+python .\src\main.py 13
+```

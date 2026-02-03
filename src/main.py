@@ -1,9 +1,13 @@
-from problems.easy.longest_common_prefix import LongestCommonPrefix
+from problems.problem_switcher import execute
+import sys
 
 
 """main"""
-def main():
-    LongestCommonPrefix().test_case()
+def main(argv=None):
+    argv = argv if argv is not None else sys.argv[1:]
+    print("argv:", argv)
+    if argv is not None:
+        execute(argv[0])
     return
 
 

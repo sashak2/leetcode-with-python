@@ -1,0 +1,14 @@
+# Problem Name
+
+class Template:
+    def test_case(self):
+        print(__name__)
+        self.execute("sample")
+        return
+
+    def execute(self, s: str) -> bool:
+        print('----- start -----', s)
+        result = True
+        print('----- end result -----', result)
+        return result
+    
