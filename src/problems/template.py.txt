@@ -9,6 +9,6 @@ class Template:
     def execute(self, s: str) -> bool:
         print('----- start -----', s)
         result = True
-        print('----- end result -----', result)
+        print('result', result)
         return result
     
