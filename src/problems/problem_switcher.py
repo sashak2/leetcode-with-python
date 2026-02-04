@@ -1,4 +1,3 @@
-# import problems.easy as ps
 from problems import *
 
 def execute(Problem_num):
@@ -7,5 +6,6 @@ def execute(Problem_num):
         case "14": LongestCommonPrefix().test_case()
         case "20": ValidParentheses().test_case()
         case "21": MergeTwoSortedLists().test_case()
+        case "26": RemoveDuplicatesfromSortedArray().test_case()
         case _: print(f"The problem #{Problem_num} doesn't exist.")
     pass
