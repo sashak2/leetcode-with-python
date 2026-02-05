@@ -51,3 +51,24 @@ python .\src\main.py
 ```cmd
 python .\src\main.py 13
 ```
+
+## Git Note
+
+### Git commit message
+
+#### Common Types
+
+- feat: new feature
+- fix: bug fix
+- docs: documentation changes
+- style: formatting (no code change)
+- refactor: code restructuring
+- test: adding tests
+- chore: maintenance tasks
+
+#### Key Principles
+
+1. Be specific: "Fix login bug" → "Fix null pointer error in login validation"
+1. Atomic commits: One logical change per commit
+1. Present tense: Write as if giving commands to the codebase
+1. Context matters: Future you (or teammates) should understand why this change was made

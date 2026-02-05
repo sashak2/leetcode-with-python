@@ -6,7 +6,7 @@ import sys
 def main(argv=None):
     argv = argv if argv is not None else sys.argv[1:]
     print("argv:", argv)
-    if argv is not None:
+    if len(argv) > 0:
         execute(argv[0])
     return
 

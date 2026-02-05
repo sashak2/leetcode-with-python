@@ -7,5 +7,6 @@ def execute(Problem_num):
         case "20": ValidParentheses().test_case()
         case "21": MergeTwoSortedLists().test_case()
         case "26": RemoveDuplicatesfromSortedArray().test_case()
+        case "28": FindIndexOfFirstOccurrenceInString().test_case()
         case _: print(f"The problem #{Problem_num} doesn't exist.")
     pass
