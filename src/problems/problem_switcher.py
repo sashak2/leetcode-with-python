@@ -8,5 +8,6 @@ def execute(Problem_num):
         case "21": MergeTwoSortedLists().test_case()
         case "26": RemoveDuplicatesfromSortedArray().test_case()
         case "28": FindIndexOfFirstOccurrenceInString().test_case()
+        case "141": LinkedListCycle().test_case()
         case _: print(f"The problem #{Problem_num} doesn't exist.")
     pass
