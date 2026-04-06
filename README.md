@@ -8,8 +8,15 @@
 python -m venv venv
 ```
 
+Windows
 ```cmd
 .\venv\Scripts\activate
+```
+
+Linux
+
+```cmd
+source ./venv/bin/activate
 ```
 
 ```cmd
