@@ -7,6 +7,7 @@ from .find_index_of_first_occurrence_in_string import FindIndexOfFirstOccurrence
 from .linked_list_cycle import LinkedListCycle
 from .missing_number import MissingNumber
 from .subtree_of_another_tree import SubtreeOfAnotherTree
+from .reverse_bits import ReverseBits
 
 
 __all__ = [
@@ -19,4 +20,5 @@ __all__ = [
     "LinkedListCycle",
     "MissingNumber",
     "SubtreeOfAnotherTree",
+    "ReverseBits",
 ]

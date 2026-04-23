@@ -11,5 +11,6 @@ def execute(Problem_num):
         case "141": LinkedListCycle().test_case()
         case "268": MissingNumber().test_case()
         case "572": SubtreeOfAnotherTree().test_case()
+        case "190": ReverseBits().test_case()
         case _: print(f"The problem #{Problem_num} doesn't exist.")
     pass
