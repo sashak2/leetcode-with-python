@@ -8,6 +8,7 @@ from .linked_list_cycle import LinkedListCycle
 from .missing_number import MissingNumber
 from .subtree_of_another_tree import SubtreeOfAnotherTree
 from .reverse_bits import ReverseBits
+from .number_of_one_bits import NumberOfOneBits
 
 
 __all__ = [
@@ -21,4 +22,5 @@ __all__ = [
     "MissingNumber",
     "SubtreeOfAnotherTree",
     "ReverseBits",
+    "NumberOfOneBits",
 ]
