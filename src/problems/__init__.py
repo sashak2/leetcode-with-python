@@ -9,6 +9,7 @@ from .missing_number import MissingNumber
 from .subtree_of_another_tree import SubtreeOfAnotherTree
 from .reverse_bits import ReverseBits
 from .number_of_one_bits import NumberOfOneBits
+from .climb_stairs import ClimbStairs
 
 
 __all__ = [
@@ -23,4 +24,5 @@ __all__ = [
     "SubtreeOfAnotherTree",
     "ReverseBits",
     "NumberOfOneBits",
+    "ClimbStairs",
 ]

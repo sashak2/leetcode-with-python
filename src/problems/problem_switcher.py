@@ -13,5 +13,6 @@ def execute(Problem_num):
         case "572": SubtreeOfAnotherTree().test_case()
         case "190": ReverseBits().test_case()
         case "191": NumberOfOneBits().test_case()
+        case "70": ClimbStairs().test_case()
         case _: print(f"The problem #{Problem_num} doesn't exist.")
     pass
